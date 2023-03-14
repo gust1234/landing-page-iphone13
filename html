@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="styles.css">
+    <title>landing page iphone13</title>
+</head>
+<body>
+    <header>
+        <nav class="navigation">
+        <a href="#"><img src="img/logo.png" alt="logo do Iphone" class="logo"></a>
+        <ul>
+        <li><a href="#"></a>Mac</li>
+            <li><a href="#"></a>Ipad</li>
+            <li><a href="#" class="check"></a>Iphone</li>
+            <li><a href="#"></a>Watch</li>
+            <li><a href="#"></a>Airpods</li>
+            <li><a href="#"></a>so na Apples</li>
+            <li><a href="#"></a>Suporte</li>
+        </ul>
+          </nav>
+    </header>
+    <main>
+     <section>
+        <div class="circle"></div>
+        <div class="main-text">
+            <img src="img/iphone13 (1).png" alt="">
+            <h3>Seu novo superpoder.</h3>
+            <p>
+                Chip com velocidade impressionante. Um aumetável na duração da bateria.E novos recursos de foto e vídeo.<br> No iPhone 13, você faz coisas que nunca pôde. E ele ainda vem em dois tamanhos.
+             </p> 
+             <h6>A partir de R$6.599>></h6>
+             <a href="#" class="btn">Comprar</a>
+             <div class="text">
+                <h5>Escolha sua cor favorita:</h5>
+             </div>
+             <div class="content">
+             <span id="green"onclick="imgSlide('img/green.png');circleChange('#445c42')"></span>
+             <span id= "pink"onclick="imgSlide('img/pink.png');circleChange('ffc9cf')"></span>
+             <span id="blue"onclick="imgSlide('img/blue.png');circleChange('#0b839e')"></span>
+             <span id="black"onclick="imgSlide('img/black.png');circleChange('#092732')"></span>
+             <span id="white"onclick="imgSlide('img/white.png');circleChange('#e0dbd7')"></span>
+             <span id="red"onclick="imgSlide('img/red.png');circleChange  ('#cf4f68')"></span>
+           </div>
+        </div>
+        <div class="main-img">
+       <img src="img/green.png" alt="imagem do Iphone" id="phone">
+        </div>
+     </section>
+    </main>
+    <script type="text/javascript"> }
+        function circleChange(color){
+            const circle =document.querySelector('.circle');
+            circle.style.backeground =color;
+        }
+    </script>
